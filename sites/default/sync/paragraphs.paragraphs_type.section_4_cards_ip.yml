@@ -1,0 +1,9 @@
+uuid: 1173349d-c683-484d-948d-e388a526aca7
+langcode: ru
+status: true
+dependencies: {  }
+id: section_4_cards_ip
+label: '4 cards IP'
+icon_uuid: null
+description: ''
+behavior_plugins: {  }

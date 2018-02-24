@@ -1,0 +1,9 @@
+uuid: 77165bde-2d85-4d2d-a536-17381e19bd12
+langcode: ru
+status: true
+dependencies: {  }
+id: section_4_cards_hp
+label: '4 cards HP'
+icon_uuid: null
+description: ''
+behavior_plugins: {  }

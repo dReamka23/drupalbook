@@ -1,0 +1,19 @@
+uuid: 12e8c773-d91d-4122-b542-dac28a7664b8
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_sub_title
+    - paragraphs.paragraphs_type.section_4_cards_hp
+id: paragraph.section_4_cards_hp.field_sub_title
+field_name: field_sub_title
+entity_type: paragraph
+bundle: section_4_cards_hp
+label: 'sub title'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

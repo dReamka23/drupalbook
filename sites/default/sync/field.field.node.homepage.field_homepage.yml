@@ -1,0 +1,55 @@
+uuid: da5400ba-eb23-42ac-af05-19e1a3736a6d
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_homepage
+    - node.type.homepage
+    - paragraphs.paragraphs_type.section_4_cards_hp
+    - paragraphs.paragraphs_type.section_banner_background
+    - paragraphs.paragraphs_type.section_connect_with_us
+    - paragraphs.paragraphs_type.section_description
+  module:
+    - entity_reference_revisions
+id: node.homepage.field_homepage
+field_name: field_homepage
+entity_type: node
+bundle: homepage
+label: homepage
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    negate: 0
+    target_bundles:
+      section_banner_background: section_banner_background
+      section_description: section_description
+      section_4_cards_hp: section_4_cards_hp
+      section_connect_with_us: section_connect_with_us
+    target_bundles_drag_drop:
+      section_banner_background:
+        enabled: true
+        weight: -15
+      section_description:
+        enabled: true
+        weight: -14
+      section_4_cards_hp:
+        enabled: true
+        weight: -13
+      section_connect_with_us:
+        enabled: true
+        weight: -12
+      section_3_images:
+        weight: -11
+        enabled: false
+      section_4_cards_ip:
+        weight: -10
+        enabled: false
+      section_body:
+        weight: -9
+        enabled: false
+field_type: entity_reference_revisions

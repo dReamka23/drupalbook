@@ -1,0 +1,20 @@
+uuid: 588a609c-1735-46da-a3c2-77127729f17d
+langcode: ru
+status: true
+dependencies:
+  config:
+    - node.type.sub_page
+  module:
+    - path
+id: node.sub_page.path
+field_name: path
+entity_type: node
+bundle: sub_page
+label: 'Синоним URL'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: path

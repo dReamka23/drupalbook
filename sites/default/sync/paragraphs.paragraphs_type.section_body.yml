@@ -1,0 +1,9 @@
+uuid: 15c1cebc-e4e0-4dcb-874c-72ba02d87585
+langcode: ru
+status: true
+dependencies: {  }
+id: section_body
+label: Body
+icon_uuid: null
+description: ''
+behavior_plugins: {  }

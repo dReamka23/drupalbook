@@ -1,0 +1,19 @@
+uuid: a55dd5b2-33c4-4068-9c25-192c5567b337
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_title
+    - paragraphs.paragraphs_type.section_4_cards_hp
+id: paragraph.section_4_cards_hp.field_title
+field_name: field_title
+entity_type: paragraph
+bundle: section_4_cards_hp
+label: title
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

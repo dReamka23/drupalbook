@@ -1,0 +1,20 @@
+uuid: 9e636c7e-d41a-4107-b3a3-3db24e05b608
+langcode: ru
+status: false
+dependencies:
+  theme:
+    - drupalbook
+_core:
+  default_config_hash: 13GQpeITIJsp1kyPniXtWZfyFH87vb1xxJCHifL4UeE
+id: drupalbook_local_actions
+theme: drupalbook
+region: content
+weight: -7
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Основные действия администратора'
+  provider: core
+  label_display: '0'
+visibility: {  }

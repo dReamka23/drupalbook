@@ -1,0 +1,19 @@
+uuid: 7c6db365-d197-48f3-bd9f-f499c8528830
+langcode: ru
+status: true
+dependencies:
+  module:
+    - paragraphs
+    - text
+id: paragraph.field_wysiwyg_text_area
+field_name: field_wysiwyg_text_area
+entity_type: paragraph
+type: text_long
+settings: {  }
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

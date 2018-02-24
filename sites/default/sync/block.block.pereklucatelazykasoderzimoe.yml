@@ -1,0 +1,38 @@
+uuid: e2a5c312-2823-4a5b-9d17-7f342ba5d262
+langcode: ru
+status: true
+dependencies:
+  module:
+    - language
+    - node
+  theme:
+    - drupalbook
+id: pereklucatelazykasoderzimoe
+theme: drupalbook
+region: sidebar_second
+weight: 0
+provider: null
+plugin: 'language_block:language_content'
+settings:
+  id: 'language_block:language_content'
+  label: 'Переключатель языка (Содержимое)'
+  provider: language
+  label_display: '0'
+visibility:
+  language:
+    id: language
+    langcodes:
+      ru: ru
+      en: en
+    negate: false
+    context_mapping:
+      language: '@language.current_language_context:language_content'
+  node_type:
+    id: node_type
+    bundles:
+      article_page: article_page
+      homepage: homepage
+      sub_page: sub_page
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'

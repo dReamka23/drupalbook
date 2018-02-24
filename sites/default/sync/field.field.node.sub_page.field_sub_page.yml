@@ -1,0 +1,53 @@
+uuid: fcde5138-a574-4e14-8435-89fa650a981e
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_sub_page
+    - node.type.sub_page
+    - paragraphs.paragraphs_type.section_4_cards_ip
+    - paragraphs.paragraphs_type.section_banner_background
+    - paragraphs.paragraphs_type.section_body
+  module:
+    - entity_reference_revisions
+id: node.sub_page.field_sub_page
+field_name: field_sub_page
+entity_type: node
+bundle: sub_page
+label: 'SUB PAGE'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    negate: 0
+    target_bundles:
+      section_banner_background: section_banner_background
+      section_body: section_body
+      section_4_cards_ip: section_4_cards_ip
+    target_bundles_drag_drop:
+      section_banner_background:
+        enabled: true
+        weight: -15
+      section_body:
+        enabled: true
+        weight: -14
+      section_4_cards_ip:
+        enabled: true
+        weight: -13
+      section_3_images:
+        weight: -12
+        enabled: false
+      section_4_cards_hp:
+        weight: -11
+        enabled: false
+      section_connect_with_us:
+        weight: -10
+        enabled: false
+      section_description:
+        weight: -9
+        enabled: false
+field_type: entity_reference_revisions

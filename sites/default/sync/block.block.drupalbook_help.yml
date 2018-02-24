@@ -1,0 +1,22 @@
+uuid: df83edf8-5624-47eb-81e4-6a1415161ada
+langcode: ru
+status: false
+dependencies:
+  module:
+    - help
+  theme:
+    - drupalbook
+_core:
+  default_config_hash: 8I8iACSa0sKO3k3jlvUG1ge52rfcKX7USJAQYnzuBgg
+id: drupalbook_help
+theme: drupalbook
+region: content
+weight: -7
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Справка
+  provider: help
+  label_display: '0'
+visibility: {  }

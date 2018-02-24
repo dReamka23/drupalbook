@@ -1,0 +1,18 @@
+uuid: da1e82e1-7041-4ab1-a716-67f1d26b2bde
+langcode: ru
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: HOMEPAGE
+type: homepage
+description: ''
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: true

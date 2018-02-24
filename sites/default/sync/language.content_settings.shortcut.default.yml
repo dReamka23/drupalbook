@@ -1,0 +1,16 @@
+uuid: b6f6c9fe-3064-46a6-ae10-3b990e20c967
+langcode: ru
+status: true
+dependencies:
+  config:
+    - shortcut.set.default
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: false
+id: shortcut.default
+target_entity_type_id: shortcut
+target_bundle: default
+default_langcode: site_default
+language_alterable: false

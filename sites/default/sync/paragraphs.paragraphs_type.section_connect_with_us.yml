@@ -1,0 +1,9 @@
+uuid: 55eea5e3-cd17-4d77-bc75-1790098a54f1
+langcode: ru
+status: true
+dependencies: {  }
+id: section_connect_with_us
+label: 'Connect with us'
+icon_uuid: null
+description: ''
+behavior_plugins: {  }

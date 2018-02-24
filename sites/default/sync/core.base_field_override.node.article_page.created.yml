@@ -1,0 +1,18 @@
+uuid: 8f6e6e51-eaac-4ff6-9c6e-78326c0502ef
+langcode: ru
+status: true
+dependencies:
+  config:
+    - node.type.article_page
+id: node.article_page.created
+field_name: created
+entity_type: node
+bundle: article_page
+label: 'Время создания'
+description: 'Время создания материала.'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: created

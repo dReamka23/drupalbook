@@ -1,0 +1,29 @@
+uuid: 0622526d-30fb-4c51-a5ce-0ab283923071
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.field.node.sub_page.field_sub_page
+    - node.type.sub_page
+  module:
+    - entity_reference_revisions
+    - user
+id: node.sub_page.default
+targetEntityType: node
+bundle: sub_page
+mode: default
+content:
+  field_sub_page:
+    type: entity_reference_revisions_entity_view
+    weight: 101
+    label: above
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    region: content
+hidden:
+  langcode: true

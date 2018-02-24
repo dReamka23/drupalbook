@@ -1,0 +1,19 @@
+uuid: 06a2ee15-7b62-49a4-bead-9c220bc8690e
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_title
+    - paragraphs.paragraphs_type.section_4_cards_ip
+id: paragraph.section_4_cards_ip.field_title
+field_name: field_title
+entity_type: paragraph
+bundle: section_4_cards_ip
+label: title
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

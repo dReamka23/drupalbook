@@ -1,0 +1,9 @@
+uuid: 72466776-62db-4f9b-9885-96692bd88765
+langcode: ru
+status: true
+dependencies: {  }
+id: section_banner_background
+label: 'Banner Background'
+icon_uuid: null
+description: ''
+behavior_plugins: {  }

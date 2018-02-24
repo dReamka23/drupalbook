@@ -1,0 +1,18 @@
+uuid: c089be81-a9aa-41a2-aca2-64cd7db8277b
+langcode: ru
+status: true
+dependencies:
+  config:
+    - node.type.article
+id: node.article.title
+field_name: title
+entity_type: node
+bundle: article
+label: Заголовок
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

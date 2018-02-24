@@ -1,0 +1,14 @@
+uuid: f4693f09-d407-4588-a4bd-f7925d8948da
+name: drupalbook.ru
+mail: dReamka23@ukr.net
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /node
+admin_compact_mode: false
+weight_select_max: 100
+langcode: ru
+default_langcode: ru
+_core:
+  default_config_hash: yXadRE77Va-G6dxhd2kPYapAvbnSvTF6hO4oXiOEynI

@@ -1,0 +1,22 @@
+uuid: 7ab0e8e2-6d7f-461f-878b-e128dc0a4c7e
+langcode: ru
+status: true
+dependencies:
+  config:
+    - node.type.article_page
+id: node.article_page.status
+field_name: status
+entity_type: node
+bundle: article_page
+label: Опубликовано
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: Вкл
+  off_label: Выкл
+field_type: boolean

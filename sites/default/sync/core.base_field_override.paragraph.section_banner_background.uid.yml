@@ -1,0 +1,20 @@
+uuid: 31d515c2-ad09-45ce-a8ab-49fbc1b0c026
+langcode: ru
+status: true
+dependencies:
+  config:
+    - paragraphs.paragraphs_type.section_banner_background
+id: paragraph.section_banner_background.uid
+field_name: uid
+entity_type: paragraph
+bundle: section_banner_background
+label: Автор
+description: 'The user ID of the paragraphs author.'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: 'Drupal\paragraphs\Entity\Paragraph::getCurrentUserId'
+settings:
+  handler: default
+  handler_settings: {  }
+field_type: entity_reference

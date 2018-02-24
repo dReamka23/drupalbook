@@ -1,0 +1,22 @@
+uuid: df1615af-78eb-45b3-b03d-8dd4174346ce
+langcode: ru
+status: false
+dependencies:
+  theme:
+    - drupalbook
+_core:
+  default_config_hash: X9I1OB0W3WlWtrK-CNcg6hNWwa8wficanpH8pYnDZDE
+id: drupalbook_local_tasks
+theme: drupalbook
+region: content
+weight: -7
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Вкладки
+  provider: core
+  label_display: '0'
+  primary: true
+  secondary: true
+visibility: {  }

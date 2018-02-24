@@ -1,0 +1,20 @@
+uuid: 5abbe64a-4421-41d3-9433-52b3bd6ad2e8
+langcode: ru
+status: true
+dependencies:
+  config:
+    - paragraphs.paragraphs_type.section_4_cards_hp
+id: paragraph.section_4_cards_hp.uid
+field_name: uid
+entity_type: paragraph
+bundle: section_4_cards_hp
+label: Автор
+description: 'The user ID of the paragraphs author.'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: 'Drupal\paragraphs\Entity\Paragraph::getCurrentUserId'
+settings:
+  handler: default
+  handler_settings: {  }
+field_type: entity_reference

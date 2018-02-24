@@ -1,0 +1,18 @@
+uuid: 79f43e40-3272-42dc-8b34-52dac1718e80
+langcode: ru
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: 'SUB PAGE'
+type: sub_page
+description: ''
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: true

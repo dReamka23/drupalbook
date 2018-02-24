@@ -1,0 +1,22 @@
+uuid: fa2db358-5c94-4f47-9020-233b68e2d154
+langcode: ru
+status: true
+dependencies:
+  config:
+    - paragraphs.paragraphs_type.section_connect_with_us
+id: paragraph.section_connect_with_us.status
+field_name: status
+entity_type: paragraph
+bundle: section_connect_with_us
+label: Опубликовано
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: Вкл
+  off_label: Выкл
+field_type: boolean

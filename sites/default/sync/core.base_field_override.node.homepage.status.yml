@@ -1,0 +1,22 @@
+uuid: ffbe1d6c-5a61-41f3-aa96-c1f25201c51f
+langcode: ru
+status: true
+dependencies:
+  config:
+    - node.type.homepage
+id: node.homepage.status
+field_name: status
+entity_type: node
+bundle: homepage
+label: Опубликовано
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: Вкл
+  off_label: Выкл
+field_type: boolean

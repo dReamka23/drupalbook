@@ -1,0 +1,22 @@
+uuid: 5f80657c-384b-4fcb-bd35-1993e2026c93
+langcode: ru
+status: false
+dependencies:
+  module:
+    - system
+  theme:
+    - drupalbook
+_core:
+  default_config_hash: oXUb3JZR2WW5VOdw4HrhRicCsq51mCgLfRyvheG68ck
+id: drupalbook_breadcrumbs
+theme: drupalbook
+region: navigation
+weight: -5
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: 'Строка навигации'
+  provider: system
+  label_display: '0'
+visibility: {  }

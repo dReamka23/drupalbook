@@ -1,0 +1,21 @@
+uuid: e45c7c1c-496a-47f8-8c1c-2a5d400cb274
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_wysiwyg_text_area
+    - paragraphs.paragraphs_type.section_connect_with_us
+  module:
+    - text
+id: paragraph.section_connect_with_us.field_wysiwyg_text_area
+field_name: field_wysiwyg_text_area
+entity_type: paragraph
+bundle: section_connect_with_us
+label: Text
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

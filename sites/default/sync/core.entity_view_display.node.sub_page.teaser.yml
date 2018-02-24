@@ -1,0 +1,19 @@
+uuid: 660f0f51-b7a3-4d5b-9787-330360d0c079
+langcode: ru
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - node.type.sub_page
+  module:
+    - user
+id: node.sub_page.teaser
+targetEntityType: node
+bundle: sub_page
+mode: teaser
+content:
+  links:
+    weight: 100
+    region: content
+hidden:
+  langcode: true

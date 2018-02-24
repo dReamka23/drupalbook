@@ -1,0 +1,21 @@
+uuid: f88b572b-8468-48ef-a54c-b53eb3211c09
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_wysiwyg_text_area
+    - paragraphs.paragraphs_type.section_4_cards_hp
+  module:
+    - text
+id: paragraph.section_4_cards_hp.field_wysiwyg_text_area
+field_name: field_wysiwyg_text_area
+entity_type: paragraph
+bundle: section_4_cards_hp
+label: Text
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

@@ -1,0 +1,18 @@
+uuid: fa368380-a40f-4303-bb3f-478824b1024f
+langcode: ru
+status: true
+dependencies:
+  config:
+    - paragraphs.paragraphs_type.section_3_images
+id: paragraph.section_3_images.created
+field_name: created
+entity_type: paragraph
+bundle: section_3_images
+label: 'Время создания'
+description: 'The time that the Paragraph was created.'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: created

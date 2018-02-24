@@ -1,0 +1,18 @@
+uuid: cf8d4140-1d56-4b38-95f1-bd71948ce133
+langcode: ru
+status: true
+dependencies:
+  config:
+    - comment.type.comment
+id: comment.comment.hostname
+field_name: hostname
+entity_type: comment
+bundle: comment
+label: 'Имя хоста'
+description: 'Имя хоста автора комментария.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

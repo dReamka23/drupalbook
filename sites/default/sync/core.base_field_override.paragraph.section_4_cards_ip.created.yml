@@ -1,0 +1,18 @@
+uuid: a4793546-01d9-4db5-b8f5-0089a4ee7c02
+langcode: ru
+status: true
+dependencies:
+  config:
+    - paragraphs.paragraphs_type.section_4_cards_ip
+id: paragraph.section_4_cards_ip.created
+field_name: created
+entity_type: paragraph
+bundle: section_4_cards_ip
+label: 'Время создания'
+description: 'The time that the Paragraph was created.'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: created

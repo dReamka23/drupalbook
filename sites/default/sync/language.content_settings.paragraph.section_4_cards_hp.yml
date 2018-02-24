@@ -1,0 +1,16 @@
+uuid: 33b6658e-f818-4098-9efb-6fb49c3cca06
+langcode: ru
+status: true
+dependencies:
+  config:
+    - paragraphs.paragraphs_type.section_4_cards_hp
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: true
+id: paragraph.section_4_cards_hp
+target_entity_type_id: paragraph
+target_bundle: section_4_cards_hp
+default_langcode: site_default
+language_alterable: true

@@ -1,0 +1,24 @@
+uuid: 8419cece-9778-4e0a-ae68-3b46e0e6e1f8
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.section_3_images.field_image_with_cropping
+    - paragraphs.paragraphs_type.section_3_images
+  module:
+    - image
+id: paragraph.section_3_images.default
+targetEntityType: paragraph
+bundle: section_3_images
+mode: default
+content:
+  field_image_with_cropping:
+    weight: 0
+    label: hidden
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+hidden: {  }

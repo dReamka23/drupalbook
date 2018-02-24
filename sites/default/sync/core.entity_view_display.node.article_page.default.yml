@@ -1,0 +1,29 @@
+uuid: bfcf26d6-27c2-443f-bea7-3324be1be07f
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.field.node.article_page.field_article_page
+    - node.type.article_page
+  module:
+    - entity_reference_revisions
+    - user
+id: node.article_page.default
+targetEntityType: node
+bundle: article_page
+mode: default
+content:
+  field_article_page:
+    type: entity_reference_revisions_entity_view
+    weight: 101
+    label: above
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    region: content
+hidden:
+  langcode: true

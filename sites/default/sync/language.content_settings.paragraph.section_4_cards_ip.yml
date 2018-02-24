@@ -1,0 +1,16 @@
+uuid: 8212a011-2f18-4e98-96af-00f354e1637f
+langcode: ru
+status: true
+dependencies:
+  config:
+    - paragraphs.paragraphs_type.section_4_cards_ip
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: true
+id: paragraph.section_4_cards_ip
+target_entity_type_id: paragraph
+target_bundle: section_4_cards_ip
+default_langcode: site_default
+language_alterable: true

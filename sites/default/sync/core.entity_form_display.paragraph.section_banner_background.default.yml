@@ -1,0 +1,27 @@
+uuid: 3a629547-68d2-4e06-a41c-4e6cd71426e4
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.section_banner_background.field_image_with_cropping
+    - image.style.thumbnail
+    - paragraphs.paragraphs_type.section_banner_background
+  module:
+    - image
+id: paragraph.section_banner_background.default
+targetEntityType: paragraph
+bundle: section_banner_background
+mode: default
+content:
+  field_image_with_cropping:
+    weight: 0
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+    type: image_image
+    region: content
+hidden:
+  created: true
+  status: true
+  uid: true

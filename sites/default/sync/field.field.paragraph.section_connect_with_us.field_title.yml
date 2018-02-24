@@ -1,0 +1,19 @@
+uuid: 7e0d967e-e050-477c-bdea-b4003a40a7df
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_title
+    - paragraphs.paragraphs_type.section_connect_with_us
+id: paragraph.section_connect_with_us.field_title
+field_name: field_title
+entity_type: paragraph
+bundle: section_connect_with_us
+label: title
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string
