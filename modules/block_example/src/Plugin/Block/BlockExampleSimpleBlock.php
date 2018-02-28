@@ -24,60 +24,64 @@ class BlockExampleSimpleBlock extends BlockBase {
    * {@inheritdoc}
    */
   public function build() {
+    $block = [];
     $config = $this->getConfiguration();
-
     $textarea = $config['textarea'];
-    $image_id = $config['image'][0];
     $textfield = $config['textfield'];
     $date = $config['date'];
 
-    $file = File::load($image_id);
+    if (isset($config['image'][0])) {
+      $image_id = $config['image'][0];
+      $file = File::load($image_id);
 
-    $variables = [
-      'style_name' => 'example_block',
-      'uri' => $file->getFileUri(),
-    ];
+      $variables = [
+        'style_name' => 'example_block',
+        'uri' => $file->getFileUri(),
+      ];
 
-    // The image.factory service will check if our image is valid.
-    $image = \Drupal::service('image.factory')->get($file->getFileUri());
-    if ($image->isValid()) {
-      $variables['width'] = $image->getWidth();
-      $variables['height'] = $image->getHeight();
+      // The image.factory service will check if our image is valid.
+      $image = \Drupal::service('image.factory')->get($file->getFileUri());
+      if ($image->isValid()) {
+        $variables['width'] = $image->getWidth();
+        $variables['height'] = $image->getHeight();
+      }
+      else {
+        $variables['width'] = $variables['height'] = NULL;
+      }
+
+      $logo_render_array = [
+        '#theme' => 'image_style',
+        '#width' => $variables['width'],
+        '#height' => $variables['height'],
+        '#style_name' => $variables['style_name'],
+        '#uri' => $variables['uri'],
+      ];
+      $renderer = \Drupal::service('renderer');
+      $block['image'] = [
+        '#type' => 'markup',
+        '#markup' => $renderer->render($logo_render_array),
+      ];
     }
-    else {
-      $variables['width'] = $variables['height'] = NULL;
-    }
 
-    $logo_render_array = [
-      '#theme' => 'image_style',
-      '#width' => $variables['width'],
-      '#height' => $variables['height'],
-      '#style_name' => $variables['style_name'],
-      '#uri' => $variables['uri'],
-    ];
-
-    $renderer = \Drupal::service('renderer');
-
-    $block = [];
+    /** @var \Drupal\Core\Datetime\DateFormatter $date_time */
+    $date_time = \Drupal::service('date.formatter');
 
     $block['textfield'] = [
       '#type' => 'markup',
-      '#markup' => t("$textfield"),
-    ];
-
-    $block['image'] = [
-      '#type' => 'markup',
-      '#markup' => $renderer->render($logo_render_array),
+      '#markup' => $textfield,
+      '#weigth' => 100,
     ];
 
     $block['textarea'] = [
       '#type' => 'markup',
-      '#markup' => t("$textarea"),
+      '#markup' => '<br>' . $textarea,
+      '#weigth' => 400,
     ];
 
     $block['date'] = [
       '#type' => 'markup',
-      '#markup' => t("<br>" . "$date"),
+      '#markup' => '<br>' . $date_time->format(strtotime($date), 'block_date'),
+      '#weigth' => 500,
     ];
     return $block;
   }
@@ -92,7 +96,7 @@ class BlockExampleSimpleBlock extends BlockBase {
     ];
     $form['image'] = [
       '#type' => 'managed_file',
-      '#title' => t('File *'),
+      '#title' => t('format only jpg,JPG,jpeg,gif,bmp,png'),
       '#size' => 20,
       '#description' => t(''),
       '#upload_validators' => [

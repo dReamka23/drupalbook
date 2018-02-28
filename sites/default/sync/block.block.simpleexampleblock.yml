@@ -1,0 +1,25 @@
+uuid: e719bd36-a4ae-4c0a-9d53-e5c85e2787c3
+langcode: ru
+status: true
+dependencies:
+  module:
+    - block_example
+  theme:
+    - drupalbook
+id: simpleexampleblock
+theme: drupalbook
+region: sidebar_second
+weight: 0
+provider: null
+plugin: example_simple
+settings:
+  id: example_simple
+  label: 'Simple example block'
+  provider: block_example
+  label_display: '0'
+  textfield: Книга
+  textarea: 'Финеас Тейлор Барнум всегда мечтал войти в историю, но все его занятия не приносили ему удовольствия. И когда, казалось, весь мир обернулся против него, он решает пойти вслед за своей мечтой. Барнум создает завораживающее представление-сенсацию, которое стало рождением мирового шоу-бизнеса.'
+  date: '2018-02-28'
+  image:
+    - '45'
+visibility: {  }

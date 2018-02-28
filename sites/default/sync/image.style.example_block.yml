@@ -1,0 +1,14 @@
+uuid: 9ed6cba4-e6c2-457a-9c5d-0b31f09f8c89
+langcode: ru
+status: true
+dependencies: {  }
+name: example_block
+label: example_block
+effects:
+  c32216e7-92eb-4d22-8733-db0f3c2fa0b9:
+    uuid: c32216e7-92eb-4d22-8733-db0f3c2fa0b9
+    id: image_resize
+    weight: 1
+    data:
+      width: 150
+      height: 150

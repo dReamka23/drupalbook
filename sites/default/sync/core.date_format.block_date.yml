@@ -1,0 +1,8 @@
+uuid: e7448d02-af24-4a45-b3fe-4da00d608919
+langcode: ru
+status: true
+dependencies: {  }
+id: block_date
+label: block_date
+locked: false
+pattern: d-m-Y
