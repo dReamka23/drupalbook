@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cbde3ad0-9a8b-462d-8e20-5e4ccd5824a5" name="Default" comment="" />
+    <list default="true" id="cbde3ad0-9a8b-462d-8e20-5e4ccd5824a5" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/vendor/behat/mink" afterPath="$PROJECT_DIR$/vendor/behat/mink" />
+      <change beforePath="$PROJECT_DIR$/vendor/drupal/coder" afterPath="$PROJECT_DIR$/vendor/drupal/coder" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -12,11 +16,40 @@
   <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
   </component>
+  <component name="DrupalConfiguration" enabled="true" version="8">
+    <drupalPath>$PROJECT_DIR$</drupalPath>
+  </component>
   <component name="FavoritesManager">
     <favorites_list name="drupalbook" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="BlockExampleSimpleBlock.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/modules/block_example/src/Plugin/Block/BlockExampleSimpleBlock.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="246">
+              <caret line="16" column="25" lean-forward="true" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="25" />
+              <folding>
+                <element signature="e#6#94#0#PHP" expanded="true" />
+                <element signature="e#142#174#0#PHP" expanded="true" />
+                <element signature="e#2823#3333#0#PHP" expanded="false" />
+                <element signature="e#3368#3724#0#PHP" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="block_example.schema.yml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/modules/block_example/config/schema/block_example.schema.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="104">
+              <caret line="4" column="1" lean-forward="false" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -25,6 +58,9 @@
     <dirStrings>
       <dir>$PROJECT_DIR$/themes/drupalbook</dir>
     </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -38,6 +74,26 @@
         <option value="$PROJECT_DIR$/themes/drupalbook/scss/style.scss" />
         <option value="$PROJECT_DIR$/sites/default/services.yml" />
         <option value="$PROJECT_DIR$/sites/development.services.yml" />
+        <option value="$PROJECT_DIR$/modules/MyModule/MyModule.module" />
+        <option value="$PROJECT_DIR$/modules/MyModule/MyModule.info.yml" />
+        <option value="$PROJECT_DIR$/modules/MyModule/src/Plugin/Block/MyBlock.php" />
+        <option value="$PROJECT_DIR$/modules/MyBlock/MyBlock.module" />
+        <option value="$PROJECT_DIR$/modules/MyBlock/src/Plugin/Block/MyBlock.php" />
+        <option value="$PROJECT_DIR$/modules/SimpleExampleBlock/SimpleExampleBlock.module" />
+        <option value="$PROJECT_DIR$/modules/SimpleExampleBlock/SimpleExampleBlock.info.yml" />
+        <option value="$PROJECT_DIR$/modules/SimpleExampleBlock/src/Plugin/Block/SimpleExampleBlock.php" />
+        <option value="$PROJECT_DIR$/modules/Block/Block.info.yml" />
+        <option value="$PROJECT_DIR$/modules/Block/Block.module" />
+        <option value="$PROJECT_DIR$/modules/block_example/block_example.module" />
+        <option value="$PROJECT_DIR$/modules/block_example/block_example.info.yml" />
+        <option value="$PROJECT_DIR$/modules/block_example/Form/CustomFormInBlockForm.php" />
+        <option value="$PROJECT_DIR$/modules/block_exemple_2/block_example_2.info.yml" />
+        <option value="$PROJECT_DIR$/modules/block_exemple_2/block_example_2.module" />
+        <option value="$PROJECT_DIR$/modules/block_exemple_2/Form/CustomFormInBlockForm.php" />
+        <option value="$PROJECT_DIR$/modules/block_example_2/Form/CustomFormInBlockForm.php" />
+        <option value="$PROJECT_DIR$/modules/block_example_2/src/Plagin/Block/BlockExampleSimpleBlock2.php" />
+        <option value="$PROJECT_DIR$/modules/block_example/src/Plugin/Block/BlockExampleSimpleBlock.php" />
+        <option value="$PROJECT_DIR$/modules/block_example/config/schema/block_example.schema.yml" />
       </list>
     </option>
   </component>
@@ -63,9 +119,19 @@
   <component name="NodeModulesDirectoryManager">
     <handled-path value="$PROJECT_DIR$/themes/drupalbook/node_modules" />
   </component>
+  <component name="PhpDebugGeneral" xdebug_debug_port="9001" notify_if_session_was_finished_without_being_paused="false" />
   <component name="PhpServers">
-    <servers />
+    <servers>
+      <server host="www.drupalbook.loc" id="2f99407c-5bd5-4fd0-af4e-7147032b37ca" name="www.drupalbook.loc" />
+      <server host="127.0.0.1" id="85b0d5a1-75eb-4e67-9747-1fdda61169b0" name="127.0.0.1" />
+      <server host="localhost" id="b51bf434-2fd8-46b2-a5e3-39c0fe8a2a6d" name="localhost" use_path_mappings="true">
+        <path_mappings>
+          <mapping local-root="$PROJECT_DIR$" remote-root="/usr/share/phpmyadmin" />
+        </path_mappings>
+      </server>
+    </servers>
   </component>
+  <component name="PhpWebServerValidation" path_to_validation_script="$PROJECT_DIR$" selected_validation_type="LOCAL" web_path_to_validation_script="http://www.drupalbook.loc/drupalbook" />
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true">
     <include_path>
       <path value="$PROJECT_DIR$/vendor/easyrdf/easyrdf" />
@@ -167,11 +233,15 @@
       <path value="$PROJECT_DIR$/vendor/doctrine/instantiator" />
     </include_path>
   </component>
+  <component name="PhpXdebugProxy" ide_key="PHPSTORM" host="localhost" />
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="583" />
-    <option name="y" value="12" />
-    <option name="width" value="844" />
-    <option name="height" value="856" />
+    <option name="x" value="665" />
+    <option name="y" value="11" />
+    <option name="width" value="935" />
+    <option name="height" value="848" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -188,6 +258,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -198,32 +270,64 @@
             <path>
               <item name="drupalbook" type="b2602c69:ProjectViewProjectNode" />
               <item name="drupalbook" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="core" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="modules" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="drupalbook" type="b2602c69:ProjectViewProjectNode" />
               <item name="drupalbook" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="themes" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="modules" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="block_example" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="drupalbook" type="b2602c69:ProjectViewProjectNode" />
               <item name="drupalbook" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="themes" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="modules" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="block_example" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="config" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="drupalbook" type="b2602c69:ProjectViewProjectNode" />
               <item name="drupalbook" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="modules" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="block_example" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="config" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="schema" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="drupalbook" type="b2602c69:ProjectViewProjectNode" />
+              <item name="drupalbook" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="modules" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="block_example" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="drupalbook" type="b2602c69:ProjectViewProjectNode" />
+              <item name="drupalbook" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="modules" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="block_example" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Plugin" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="drupalbook" type="b2602c69:ProjectViewProjectNode" />
+              <item name="drupalbook" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="modules" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="block_example" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Plugin" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Block" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.php.debug.xdebug.proxy" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.selected.package.eslint" value="" />
@@ -234,6 +338,9 @@
     <property name="restartRequiresConfirmation" value="false" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/modules/block_example_2/src" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/themes/drupalbook/templates" />
       <recent name="$PROJECT_DIR$/sites/default" />
@@ -260,7 +367,7 @@
       <arguments />
       <envs />
     </configuration>
-    <configuration name="default" type="js.build_tools.gulp" factoryName="Gulp.js" temporary="true">
+    <configuration name="default" type="js.build_tools.gulp" factoryName="Gulp.js">
       <node-interpreter>project</node-interpreter>
       <node-options />
       <gulpfile>$PROJECT_DIR$/themes/drupalbook/Gulpfile.js</gulpfile>
@@ -285,9 +392,8 @@
       <item index="1" class="java.lang.String" itemvalue="Gulp.js.styles" />
     </list>
     <recent_temporary>
-      <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="Gulp.js.default" />
-        <item index="1" class="java.lang.String" itemvalue="Gulp.js.styles" />
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="Gulp.js.styles" />
       </list>
     </recent_temporary>
   </component>
@@ -308,32 +414,46 @@
       <workItem from="1519373920063" duration="1659000" />
       <workItem from="1519375626526" duration="2283000" />
       <workItem from="1519378168859" duration="11054000" />
+      <workItem from="1519630284838" duration="19425000" />
+      <workItem from="1519650763170" duration="9259000" />
+      <workItem from="1519716258088" duration="3845000" />
+      <workItem from="1519727069114" duration="17267000" />
+      <workItem from="1519802829938" duration="10145000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15641000" />
+    <option name="totallyTimeSpent" value="75582000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="583" y="12" width="1602" height="912" extended-state="6" />
+    <frame x="665" y="11" width="1602" height="912" extended-state="6" />
     <layout>
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32789117" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5972789" sideWeight="0.502574" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3292517" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32971507" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32971507" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20656371" sideWeight="0.5222672" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21685971" sideWeight="0.4777328" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32517007" sideWeight="0.49737436" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.16409266" sideWeight="0.52789116" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2882883" sideWeight="0.47210884" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32971507" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24967825" sideWeight="0.49525103" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25225225" sideWeight="0.5101764" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.50612247" sideWeight="0.497426" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -345,39 +465,16 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="111" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/themes/drupalbook/scss/style.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="10" column="17" lean-forward="false" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/drupalbook/Gulpfile.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="12" column="3" lean-forward="false" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/drupalbook/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -440,7 +537,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -448,7 +544,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="6394" column="0" lean-forward="false" selection-start-line="6394" selection-start-column="0" selection-end-line="6394" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -456,7 +551,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="312">
           <caret line="12" column="3" lean-forward="false" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -464,7 +558,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="260">
           <caret line="31" column="3" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="115" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -472,7 +565,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="239">
           <caret line="784" column="1" lean-forward="false" selection-start-line="784" selection-start-column="1" selection-end-line="784" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -480,7 +572,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1631">
           <caret line="92" column="53" lean-forward="true" selection-start-line="92" selection-start-column="53" selection-end-line="92" selection-end-column="53" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -488,7 +579,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -496,7 +586,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -504,7 +593,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="54" column="5" lean-forward="true" selection-start-line="54" selection-start-column="5" selection-end-line="54" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -512,7 +600,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="208">
           <caret line="15" column="48" lean-forward="false" selection-start-line="15" selection-start-column="48" selection-end-line="15" selection-end-column="48" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -520,7 +607,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="260">
           <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -528,7 +614,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1794">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -536,7 +621,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -544,7 +628,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="234">
           <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -552,7 +635,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -560,7 +642,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -576,7 +657,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1170">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -584,6 +664,84 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1191">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/custom/my_module/my_module.info.yml" />
+    <entry file="file://$PROJECT_DIR$/modules/custom/my_module/my_module.module" />
+    <entry file="file://$PROJECT_DIR$/modules/MyBlock/src/Plugin/Block/MyBlock.php" />
+    <entry file="file://$PROJECT_DIR$/modules/MyBlock/MyBlock.info.yml" />
+    <entry file="file://$PROJECT_DIR$/modules/MyBlock/MyBlock.module" />
+    <entry file="file://$PROJECT_DIR$/modules/SimpleExampleBlock/SimpleExampleBlock.module" />
+    <entry file="file://$PROJECT_DIR$/modules/SimpleExampleBlock/SimpleExampleBlock.info.yml" />
+    <entry file="file://$PROJECT_DIR$/modules/SimpleExampleBlock/src/Plugin/Block/SimpleExampleBlock.php" />
+    <entry file="file://$PROJECT_DIR$/modules/Block/Block.module" />
+    <entry file="file://$PROJECT_DIR$/modules/Block/Block.info.yml" />
+    <entry file="file://$PROJECT_DIR$/core/modules/image/image.post_update.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/modules/image/src/Form/ImageEffectAddForm.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-601">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/block_example/Form/CustomFormInBlockForm.php" />
+    <entry file="file://$PROJECT_DIR$/modules/block_example_2/block_example_2.module" />
+    <entry file="file://$PROJECT_DIR$/modules/block_example_2/block_example_2.info.yml" />
+    <entry file="file://$PROJECT_DIR$/modules/block_example_2/src/Plugin/Block/BlockExampleSimpleBlock2.php" />
+    <entry file="file://$PROJECT_DIR$/modules/block_example_2/src/Form/CustomFormInBlockForm.php" />
+    <entry file="file://$PROJECT_DIR$/modules/block_example/block_example.module">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="4" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/block_example/block_example.info.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="6" column="9" lean-forward="true" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/lib/Drupal/Core/Render/Renderer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3683">
+          <caret line="377" column="0" lean-forward="false" selection-start-line="377" selection-start-column="0" selection-end-line="377" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/modules/block/src/BlockViewBuilder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1407">
+          <caret line="202" column="0" lean-forward="false" selection-start-line="202" selection-start-column="0" selection-end-line="202" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/block_example/src/Plugin/Block/BlockExampleSimpleBlock.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="246">
+          <caret line="16" column="25" lean-forward="true" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="25" />
+          <folding>
+            <element signature="e#6#94#0#PHP" expanded="true" />
+            <element signature="e#142#174#0#PHP" expanded="true" />
+            <element signature="e#2823#3333#0#PHP" expanded="false" />
+            <element signature="e#3368#3724#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/block_example/config/schema/block_example.schema.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="4" column="1" lean-forward="false" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
           <folding />
         </state>
       </provider>

@@ -1,0 +1,10 @@
+block.settings.example_simple:
+  type: block_settings
+  label: 'Simple example block'
+  mapping:
+    textfield:
+      type: label
+      label: 'title'
+    textarea:
+      type: label
+      label: 'Description'
